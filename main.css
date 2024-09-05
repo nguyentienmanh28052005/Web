@@ -5,7 +5,7 @@
             background-color: rgb(83, 90, 97);
             margin: 0;
             padding: 0;
-            background-image: url('sky.jpg'); /* Thay 'background.jpg' bằng đường dẫn tới ảnh nền của bạn */
+            background-image: url('gif3.gif'); /* Thay 'background.jpg' bằng đường dẫn tới ảnh nền của bạn */
             background-size: cover;
             background-position: center;
         }
@@ -23,3 +23,11 @@
             height: auto;
             border-radius: 15px;
         }
+
+        label {
+            font-family: Arial;
+            color: #00ff22;
+        }
+
+        
+        
