@@ -1,33 +1,32 @@
-
-        body {
-            font-family: "Gill Sans", sans-serif;
-            text-align: center;
-            background-color: rgb(83, 90, 97);
-            margin: 0;
-            padding: 0;
-            background-image: url('gif3.gif'); /* Thay 'background.jpg' bằng đường dẫn tới ảnh nền của bạn */
-            background-size: cover;
-            background-position: center;
-        }
-        .container {
-            padding: 50px;
-            background-color: rgba(255, 255, 255, 0); /* Màu nền với độ trong suốt */
-            border-radius: 15px;
-        }
-        h1 {
-            font-size: 42px;
-            color: #002fff;
-        }
-        img {
-            width: auto;
-            height: auto;
-            border-radius: 15px;
-        }
-
-        label {
-            font-family: Arial;
-            color: #00ff22;
-        }
-
-        
-        
+.spancel {
+    color: #3678B7;
+    font-weight: 900;
+}
+.ch{
+    color: #3678B7;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.const{
+    font-weight: 900;
+    font: 900;
+}
+th{
+    background-color: white;
+}
+img{
+    top: 100px; /* Adjust top margin */
+    right: 50px; /* Adjust left margin */
+    width: 200px; /* Set avatar width */
+    height: 200px; /* Set avatar height */
+}
+h2{
+    color: #3678B7;
+    background-color: #BAD2EA;
+    font-weight: 900;
+}
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+}

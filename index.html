@@ -1,31 +1,113 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Game</title>
     <link rel="stylesheet" href="main.css">
-    
+    <title>Dog</title>
+    <style>
+        h2{
+            color: #3678B7;
+            background-color: #BAD2EA;
+            font-weight: 900;
+        }
+        tr:nth-child(odd){
+            background-color: #f2f2f2;
+        }
+        img {
+            position: fixed; /* Position the image relative to the viewport */
+            top: 20px; /* Adjust top margin */
+            right: 20px; /* Adjust right margin */
+            max-width: 200px; /* Set maximum width */
+        }
+        .avatar {
+            position: fixed; /* Fix the avatar position */
+            top: 20px; /* Adjust top margin */
+            left: 20px; /* Adjust left margin */
+            width: 50px; /* Set avatar width */
+            height: 50px; /* Set avatar height */
+            border-radius: 50%; /* Create a circular avatar */
+        }
+
+        /* Style for the form section */
+        .pet-info {
+            position: relative; /* Allow positioning of the image relative to this section */
+        }
+
+        /* Style for the image to stick to the form */
+        .pet-info img {
+            position: absolute; /* Position the image relative to the form */
+            top: 20px; /* Adjust top margin */
+            right: 20px; /* Adjust right margin */
+            max-width: 200px; /* Set maximum width */
+        }
+    </style>
 </head>
-
 <body>
-        <div>
-            <form>
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname">
-              </form>
+<h1>
+    Dog D.Dog 
+</h1>
+<h2>About</h2>
+<p>Woof woof!</p>
+<p>Hi,I'm Dog .I love <span class ="spancel" >User Interface Design</span></p> 
+<h2>Courses</h2>
+<p>Here are some courses I've taken:</p>
+<table>
+  <tr>
+    <img src="sky.jpg" alt="Dog in a lab coat">
+   </tr>
+    <tr>
+        <th class="const1">Courses Number</th>
+        <th class="const1">Courses Title</th>
+        <th class="const1">Semester Taken</th>
+    </tr>
+    <tr>
+        <th colspan="3"  >For Credit</th>
+    </tr>
+    <tr>
+        <td class="spancel" >6.813</td>
+        <td class="spancel">User Interface Design</td>
+        <td class="spancel">Spring 2014</td>
+    </tr>
+    <tr>
+        <td class="spancel">6.034</td>
+        <td>Artificial Intelligence</td>
+        <td>Fall 2013</td>
+    </tr>
+    <tr>
+        <td class="spancel">6.006</td>
+        <td>Introduction</td>
+        <td>Fall 2013</td>
+    </tr>
+    <tr>
+        <th colspan="3">Listener</th>
+    </tr>
+    <tr>
+        <td class="ch">6.867</td>
+        <td>Machine Learning</td>
+        <td>Fall 2013</td>
+    </tr>
+    <tr>
+        <td class="ch">6.830</td>
+        <td>Database System</td>
+        <td>Fall 2012</td>
+    </tr>
+</table>
+<h2>Interests</h2>
+<p>I am interested <span style="font-family: Copperplate,fantasy;">HCI</span> ,<span style="font-family: Garamond,arial,sans-serif;">memes, and youtube videos</span>  </p>
+<h2>Submit Pet Information</h2>
+<div class="pet-info">  <!-- Wrap the form in a div for positioning -->
+    Would love to know what kinds of pes you 'own'(you'll never own me). Submit below!
 
-                <h1> Hãy cho game tôi 1 rate </h1>
-                <img src="sky.jpg" alt="FOREST">
-                <p style="color: blue;">Chúc bạn có một ngày thật vui vẻ và hạnh phúc!</p>
-                <p>Nếu có lỗi xin hãy để lại bình luận để mình hoàn thiện game hơn</p>
-                <p>Link ở dưới nha</p>
-                <a href="https://itch.io/jam/gmtk-2024/rate/2887009/">Nhấn vào tôi</a>
-                <p> </p>
-                <iframe width="960" height="540" src="https://www.youtube.com/embed/JrUytisvykU?si=lFDHfDj06H0dtiJP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
-        <div>       
-            
+    <form action="">
+        <label for="fname">name: </label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Phylum: </label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="lname">Gender: </label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
 </body>
 </html>
