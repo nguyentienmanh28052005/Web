@@ -3,7 +3,7 @@
     font-weight: 900;
 }
 .ch{
-    color: #3678B7;
+    color: #002f5b;
 }
 table, th, td {
     border: 1px solid black;
@@ -16,17 +16,27 @@ table, th, td {
 th{
     background-color: white;
 }
-img{
-    top: 100px; /* Adjust top margin */
-    right: 50px; /* Adjust left margin */
-    width: 200px; /* Set avatar width */
-    height: 200px; /* Set avatar height */
-}
 h2{
-    color: #3678B7;
-    background-color: #BAD2EA;
+    color: #032c53;
+    background-color: #478acd;
     font-weight: 900;
+    font-family:  Georgia, Times, serif
 }
 tr:nth-child(odd){
     background-color: #f2f2f2;
+}
+.image-container {
+    position: relative; /* Loại bỏ float: right */
+    margin-right: 20px; /* Khoảng cách giữa ảnh và tiêu đề */
+}
+
+.image-container img {
+    position: absolute;
+    top: 0; 
+    right: 0;
+    width: 300px;
+    height: 300px;
+}
+.title-container {
+    position: relative;
 }
